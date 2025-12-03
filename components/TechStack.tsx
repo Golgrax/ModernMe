@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { 
-  Database, Server, Layers, Box, Terminal, Smartphone, Code2, Download, Github, Coffee, Star, Calculator, Gamepad2, 
+  Box, Download, Github, Coffee, Star, Calculator, Gamepad2, 
   BrainCircuit, ToyBrick, Code, HardDrive, Figma, Share2, FileText, Sparkles, Brush, File, Hammer, Film, BarChart, 
   Smile, Key, Fish, Paintbrush, Turtle, AppWindow, Eye, Keyboard, Bot
 } from 'lucide-react';
