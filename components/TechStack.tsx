@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { 
-  Box, Download, Github, Coffee, Star, Calculator, Gamepad2, 
-  BrainCircuit, ToyBrick, Code, HardDrive, Figma, Share2, FileText, Sparkles, Brush, File, Hammer, Film, BarChart, 
-  Smile, Key, Fish, Paintbrush, Turtle, AppWindow, Eye, Keyboard, Bot
+  Box
 } from 'lucide-react';
 import { Skill } from '../types';
 
