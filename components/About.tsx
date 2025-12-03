@@ -270,15 +270,15 @@ const Profile3DCard: React.FC<Profile3DCardProps> = ({ repoCount, grade }) => {
                 variants={{ rest: { z: 0 }, hover: { z: 80 } }}
                 className="w-full space-y-2 pointer-events-auto"
              >
-                <a href="https://github.com/Golgrax?tab=repositories" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 p-3 rounded-lg bg-[#151515] border border-white/5 text-sm text-gray-300 hover:bg-[#202020] hover:scale-105 transition-all cursor-pointer group/link shadow-md">
+                <a href="https://github.com/Golgrax?tab=repositories" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 p-3 rounded-lg bg-[#151515] border border-white/5 text-xs sm:text-sm text-gray-300 hover:bg-[#202020] hover:scale-105 transition-all cursor-pointer group/link shadow-md">
                    <FolderOpen size={16} className="text-blue-400 group-hover/link:text-blue-300 transition-colors" />
                    <span>My Projects</span>
                 </a>
-                <a href="https://ko-fi.com/golgrax" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 p-3 rounded-lg bg-[#151515] border border-white/5 text-sm text-gray-300 hover:bg-[#202020] hover:scale-105 transition-all cursor-pointer group/link shadow-md">
+                <a href="https://ko-fi.com/golgrax" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 p-3 rounded-lg bg-[#151515] border border-white/5 text-xs sm:text-sm text-gray-300 hover:bg-[#202020] hover:scale-105 transition-all cursor-pointer group/link shadow-md">
                    <Coffee size={16} className="text-amber-600 group-hover/link:text-amber-500 transition-colors" />
                    <span>Wanna buy me some Coffee?</span>
                 </a>
-                <a href="https://www.youtube.com/watch?v=1TO48Cnl66w&list=RD1TO48Cnl66w&start_radio=1" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 p-3 rounded-lg bg-[#151515] border border-white/5 text-sm text-gray-300 hover:bg-[#202020] hover:scale-105 transition-all cursor-pointer group/link shadow-md">
+                <a href="https://www.youtube.com/watch?v=1TO48Cnl66w&list=RD1TO48Cnl66w&start_radio=1" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 p-3 rounded-lg bg-[#151515] border border-white/5 text-xs sm:text-sm text-gray-300 hover:bg-[#202020] hover:scale-105 transition-all cursor-pointer group/link shadow-md">
                    <Music size={16} className="text-purple-400 group-hover/link:text-purple-300 transition-colors" />
                    <span>My Mix Radio</span>
                 </a>

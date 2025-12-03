@@ -89,7 +89,7 @@ const Hero: React.FC<HeroProps> = ({ lastUpdated }) => {
                Execute <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </motion.a>
             
-            <div className="flex gap-2">
+            <div className="flex flex-wrap gap-2">
               {[
                 { Icon: Github, href: "https://github.com/Golgrax" },
                 { Icon: Twitter, href: "https://twitter.com/BughawBenjo" }, // Used Twitter icon for X

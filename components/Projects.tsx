@@ -9,36 +9,36 @@ const projects: Project[] = [
     title: "Syqlorix",
     description: "A hyper-minimalist Python micro-framework for building web applications. It offers a pure Python DSL for authoring web interfaces, complete with a live-reloading server, a powerful static site generator, and advanced features like middleware, blueprints, and a built-in test client.",
     tags: ["Python"],
-    image: "https://raw.githubusercontent.com/Syqlorix/Syqlorix/main/syqlorix-logo.svg",
+    image: "https://repository-images.githubusercontent.com/993542113/f4ae1967-5f0e-401a-a2c7-9ca0f4a7c40f",
     link: "https://pypi.org/project/syqlorix",
     github: "https://github.com/Syqlorix/Syqlorix"
   },
   {
     id: 2,
-    title: "syqlorix.github.io",
-    description: "official documentation and comprehensive examples for the Syqlorix Python package.",
-    tags: ["JavaScript"],
-    image: "https://raw.githubusercontent.com/Syqlorix/Syqlorix/main/syqlorix-logo.svg",
-    link: "https://syqlorix.github.io",
-    github: "https://github.com/Syqlorix/syqlorix.github.io"
+    title: "Coming Soon 1",
+    description: "Details coming soon...",
+    tags: ["TBA"],
+    image: "",
+    link: "#",
+    github: "#"
   },
   {
     id: 3,
-    title: "Elyth",
-    description: "Elyth: Create Discord bots in Python with dead-simple, string-based commands!",
-    tags: ["Python"],
-    image: "https://avatars.githubusercontent.com/u/213914540?s=200&v=4",
-    link: "https://github.com/ElythHQ/Elyth",
-    github: "https://github.com/ElythHQ/Elyth"
+    title: "Coming Soon 2",
+    description: "Details coming soon...",
+    tags: ["TBA"],
+    image: "",
+    link: "#",
+    github: "#"
   },
   {
     id: 4,
-    title: "dotfiles",
-    description: "My personal dotfiles for my Linux setup.",
-    tags: ["Shell"],
+    title: "Coming Soon 3",
+    description: "Details coming soon...",
+    tags: ["TBA"],
     image: "",
-    link: "https://github.com/Golgrax/dotfiles",
-    github: "https://github.com/Golgrax/dotfiles"
+    link: "#",
+    github: "#"
   }
 ];
 
