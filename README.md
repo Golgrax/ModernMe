@@ -1,6 +1,6 @@
 # Golgrax's Portfolio
 
-don't look at this pwease it kinda sucks i made it only to kinda learn React and try out making a cool portfolio (i kinda f**ked up the components too)
+don't look at this please it kinda sucks, I made it only to kinda learn React much in and try out making a cool portfolio (I kinda f**ked up the components too).
 
 
 
