@@ -318,10 +318,10 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
                  </div>
 
                  <div className="flex gap-3">
-                     <a href={project.github} className="p-2.5 bg-[#222] border border-white/10 rounded-lg hover:bg-white hover:text-black hover:scale-110 transition-all shadow-lg">
+                     <a href={project.github} target="_blank" rel="noopener noreferrer" className="p-2.5 bg-[#222] border border-white/10 rounded-lg hover:bg-white hover:text-black hover:scale-110 transition-all shadow-lg">
                         <Github size={16} />
                      </a>
-                     <a href={project.link} className="p-2.5 bg-primary/20 border border-primary/30 text-primary rounded-lg hover:bg-primary hover:text-white hover:scale-110 transition-all shadow-lg">
+                     <a href={project.link} target="_blank" rel="noopener noreferrer" className="p-2.5 bg-primary/20 border border-primary/30 text-primary rounded-lg hover:bg-primary hover:text-white hover:scale-110 transition-all shadow-lg">
                         <ExternalLink size={16} />
                      </a>
                  </div>
