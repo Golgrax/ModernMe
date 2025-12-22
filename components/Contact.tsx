@@ -18,6 +18,7 @@ const Contact: React.FC = () => {
       <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-primary/5 to-transparent -z-10 pointer-events-none" />
 
       <div className="max-w-4xl mx-auto px-6 relative z-10">
+        <h2 className="text-3xl font-bold text-center mb-8">Contact Me</h2>
         
         {/* Terminal/Chat Window */}
         <motion.div 

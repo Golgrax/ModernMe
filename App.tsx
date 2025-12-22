@@ -87,6 +87,10 @@ const App: React.FC = () => {
         <About repoCount={repoCount} grade={grade} />
         <TechStack />
         <Projects />
+        <div className="px-4 sm:px-6 lg:px-8 py-12 flex flex-col items-center w-full max-w-lg mx-auto">
+          <h2 className="text-3xl font-bold text-center mb-8">Support Me</h2>
+          <iframe id='kofiframe' src='https://ko-fi.com/golgrax/?hidefeed=true&widget=true&embed=true&preview=true&theme=dark&c=%238b5cf6' style={{border:'none', width:'100%', padding:'4px', background:'#2d005e', borderRadius: '24px'}} height='600' title='golgrax'></iframe>
+        </div>
         <Contact />
       </main>
 
