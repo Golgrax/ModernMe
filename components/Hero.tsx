@@ -1,6 +1,24 @@
 import React, { useRef } from 'react';
 import { motion, useScroll, useTransform, useMotionValue, useSpring } from 'framer-motion';
-import { ArrowRight, Github, Linkedin, Mail, Activity, Bell, Terminal, Music, Facebook, MessageSquare, Twitch, Youtube, Twitter, Code, Instagram } from 'lucide-react';
+import { ArrowRight, Github, Linkedin, Mail, Activity, Bell, Terminal, Music, Facebook, Twitch, Youtube, Twitter, Code, Instagram } from 'lucide-react';
+
+const DiscordIcon = ({ className }: { className?: string }) => (
+  <svg 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor"
+    strokeWidth="1.45"
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+    xmlns="http://www.w3.org/2000/svg"
+    className={className}
+    style={{ transform: 'scale(1.1)' }}
+  >
+    <path 
+      d="M18.905 5.665c-1.29-.575-2.65-1-4.08-1.29h-.07c-.145.285-.36.715-.5 1.075a16.339 16.339 0 0 0-4.58 0c-.145-.36-.36-.715-.5-1.075h-.07c-1.43.215-2.79.645-4.08 1.29-2.575 3.865-3.29 7.66-2.935 11.38v.07c1.72 1.29 3.365 2.005 5.01 2.505h.07c.36-.5.715-1.075 1-1.645v-.07a10.541 10.541 0 0 1-1.575-.715c-.07 0-.07-.07 0-.07.07-.07.215-.145.285-.215h.07c3.29 1.505 6.8 1.505 10.09 0h.07c.07.07.215.145.285.215.07 0 0 .07 0 .07-.5.285-1 .575-1.575.715 0 0-.07.07 0 .07.285.575.645 1.145 1 1.645h.07c1.645-.5 3.29-1.29 5.01-2.505v-.07c.43-4.295-.715-8.015-3.005-11.38h.01ZM8.67 14.825c-1 0-1.79-.93-1.79-2.005 0-1.075.785-2.005 1.79-2.005s1.79.93 1.79 2.005c0 1.075-.785 2.005-1.79 2.005Zm6.655 0c-1 0-1.79-.93-1.79-2.005 0-1.075.785-2.005 1.79-2.005s1.79.93 1.79 2.005c0 1.075-.785 2.005-1.79 2.005Z" 
+    />
+  </svg>
+);
 
 interface HeroProps {
   lastUpdated: string;
@@ -95,7 +113,7 @@ const Hero: React.FC<HeroProps> = ({ lastUpdated }) => {
                 { Icon: Twitter, href: "https://twitter.com/BughawBenjo" }, // Used Twitter icon for X
                 { Icon: Facebook, href: "https://fb.com/Golgrax" },
                 { Icon: Linkedin, href: "https://www.linkedin.com/in/golgrax/" },
-                { Icon: MessageSquare, href: "https://discord.com/users/415464095030968320" }, // Replaced Discord
+                { Icon: DiscordIcon, href: "https://discord.com/users/415464095030968320" }, // Replaced Discord
                 { Icon: Twitch, href: "https://www.twitch.tv/golgrax" },
                 { Icon: Youtube, href: "https://www.youtube.com/channel/UCd3MyQ0HJv_TprG0GHtJ6cQ" },
                 { Icon: Code, href: "https://dev.to/bosstdiscord" }, // Replaced DevTo
