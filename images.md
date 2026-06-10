@@ -114,3 +114,5 @@
     <img src="public/logos/wonderland-editor.svg" width="200">
 57. **Yolo**:
     <img src="public/logos/yolo.png" width="200">
+
+    * suggest what to add that i forgot
