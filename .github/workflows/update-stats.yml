@@ -2,7 +2,7 @@ name: Update Profile Stats
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs every day at midnight
+    - cron: '0 8 * * *' # Runs every day at midnight
   workflow_dispatch:
   push:
     branches:
